@@ -1,0 +1,27 @@
+# Environment & Config
+python-dotenv
+pyyaml
+
+# Data Handling
+pandas
+numpy
+
+# Web Scraping
+beautifulsoup4
+requests
+lxml
+
+# Data Processing & Modeling
+scikit-learn
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+
+# Utility
+tqdm
+joblib
+
+# Jupyter Support (for notebooks and EDA)
+notebook
