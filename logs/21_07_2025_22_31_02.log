@@ -1,0 +1,1 @@
+[2025-07-21 22:31:03,291] 17 root - INFO - Error occurred in python script [E:\Electricity Demand Predicition\scraping\download_pdfs.py] at line [100]: PDFScraper.setup_driver() takes 0 positional arguments but 1 was given

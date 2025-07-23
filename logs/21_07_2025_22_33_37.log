@@ -1,0 +1,50 @@
+[2025-07-21 22:34:07,840] 17 root - INFO - Error occurred in python script [E:\Electricity Demand Predicition\scraping\download_pdfs.py] at line [62]: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62bcbe925+77845]
+	GetHandleVerifier [0x0x7ff62bcbe980+77936]
+	(No symbol) [0x0x7ff62ba79cda]
+	(No symbol) [0x0x7ff62ba65f35]
+	(No symbol) [0x0x7ff62ba8aabe]
+	(No symbol) [0x0x7ff62baffeb5]
+	(No symbol) [0x0x7ff62bb20432]
+	(No symbol) [0x0x7ff62baf86a3]
+	(No symbol) [0x0x7ff62bac1791]
+	(No symbol) [0x0x7ff62bac2523]
+	GetHandleVerifier [0x0x7ff62bf9683d+3059501]
+	GetHandleVerifier [0x0x7ff62bf90bfd+3035885]
+	GetHandleVerifier [0x0x7ff62bfb03f0+3164896]
+	GetHandleVerifier [0x0x7ff62bcd8c2e+185118]
+	GetHandleVerifier [0x0x7ff62bce053f+216111]
+	GetHandleVerifier [0x0x7ff62bcc72d4+113092]
+	GetHandleVerifier [0x0x7ff62bcc7489+113529]
+	GetHandleVerifier [0x0x7ff62bcae288+10616]
+	BaseThreadInitThunk [0x0x7ffcb544e8d7+23]
+	RtlUserThreadStart [0x0x7ffcb68bc34c+44]
+
+[2025-07-21 22:34:07,840] 17 root - INFO - Error occurred in python script [E:\Electricity Demand Predicition\scraping\download_pdfs.py] at line [110]: Error occurred in python script [E:\Electricity Demand Predicition\scraping\download_pdfs.py] at line [62]: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62bcbe925+77845]
+	GetHandleVerifier [0x0x7ff62bcbe980+77936]
+	(No symbol) [0x0x7ff62ba79cda]
+	(No symbol) [0x0x7ff62ba65f35]
+	(No symbol) [0x0x7ff62ba8aabe]
+	(No symbol) [0x0x7ff62baffeb5]
+	(No symbol) [0x0x7ff62bb20432]
+	(No symbol) [0x0x7ff62baf86a3]
+	(No symbol) [0x0x7ff62bac1791]
+	(No symbol) [0x0x7ff62bac2523]
+	GetHandleVerifier [0x0x7ff62bf9683d+3059501]
+	GetHandleVerifier [0x0x7ff62bf90bfd+3035885]
+	GetHandleVerifier [0x0x7ff62bfb03f0+3164896]
+	GetHandleVerifier [0x0x7ff62bcd8c2e+185118]
+	GetHandleVerifier [0x0x7ff62bce053f+216111]
+	GetHandleVerifier [0x0x7ff62bcc72d4+113092]
+	GetHandleVerifier [0x0x7ff62bcc7489+113529]
+	GetHandleVerifier [0x0x7ff62bcae288+10616]
+	BaseThreadInitThunk [0x0x7ffcb544e8d7+23]
+	RtlUserThreadStart [0x0x7ffcb68bc34c+44]
+

@@ -7,9 +7,9 @@ pandas
 numpy
 
 # Web Scraping
-beautifulsoup4
 requests
-lxml
+selenium
+pdfplumber
 
 # Data Processing & Modeling
 scikit-learn
@@ -25,3 +25,4 @@ joblib
 
 # Jupyter Support (for notebooks and EDA)
 notebook
+
