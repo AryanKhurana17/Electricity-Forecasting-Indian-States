@@ -10,6 +10,8 @@ numpy
 requests
 selenium
 pdfplumber
+tabula-py
+PyPDF2
 
 # Data Processing & Modeling
 scikit-learn
