@@ -14,7 +14,8 @@ tabula-py
 PyPDF2
 
 # Data Processing & Modeling
-scikit-learn
+tensorflow
+keras
 statsmodels
 
 # Visualization

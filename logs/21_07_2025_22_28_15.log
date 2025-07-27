@@ -1,1 +1,0 @@
-[2025-07-21 22:28:17,163] 17 electricityforecasting.logger.logger - INFO - Error occurred in python script [E:\Electricity Demand Predicition\scraping\download_pdfs.py] at line [100]: PDFScraper.setup_driver() takes 0 positional arguments but 1 was given
