@@ -1,6 +1,8 @@
 # Environment & Config
 python-dotenv
 pyyaml
+pymongo[srv]
+certifi
 
 # Data Handling
 pandas
@@ -29,3 +31,5 @@ joblib
 # Jupyter Support (for notebooks and EDA)
 notebook
 
+fastapi
+uvicorn 
