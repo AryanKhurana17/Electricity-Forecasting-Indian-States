@@ -21,7 +21,6 @@ load_dotenv()
 class ConfigurationManager:
     def __init__(self, config_filepath: Path = None):
         try:
-            # If no config file, use default values from constants
             self.config = None
             if config_filepath and config_filepath.exists():
                 self.config = read_yaml(config_filepath)
@@ -111,7 +110,7 @@ class ConfigurationManager:
                 batch_size=DEFAULT_BATCH_SIZE,
                 epochs=DEFAULT_EPOCHS,
                 patience=DEFAULT_PATIENCE,
-                use_hyperparameter_tuning=False,
+                use_hyperparameter_tuning=True,
                 param_grid=PARAM_GRID
             )
             

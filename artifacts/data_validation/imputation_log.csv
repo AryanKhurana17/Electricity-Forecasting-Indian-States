@@ -1,0 +1,36 @@
+state,missing_before,missing_after,imputation_rate_percent,imputation_method,total_records
+Andhra Pradesh,0,0,0.0,seasonal,3707
+Arunachal Pradesh,0,0,0.0,seasonal,3707
+Assam,0,0,0.0,seasonal,3707
+Bihar,0,0,0.0,seasonal,3707
+Chandigarh,0,0,0.0,seasonal,3707
+Chhattisgarh,0,0,0.0,seasonal,3707
+DD,707,0,100.0,seasonal,3707
+Delhi,0,0,0.0,seasonal,3707
+DNH,712,0,100.0,seasonal,3707
+DVC,0,0,0.0,seasonal,3707
+Essar steel,532,0,100.0,seasonal,3707
+Goa,0,0,0.0,seasonal,3707
+Gujarat,0,0,0.0,seasonal,3707
+Haryana,0,0,0.0,seasonal,3707
+HP,0,0,0.0,seasonal,3707
+J&K,0,0,0.0,seasonal,3707
+Jharkhand,0,0,0.0,seasonal,3707
+Karnataka,0,0,0.0,seasonal,3707
+Kerala,0,0,0.0,seasonal,3707
+Maharashtra,0,0,0.0,seasonal,3707
+Manipur,0,0,0.0,seasonal,3707
+Meghalaya,14,0,100.0,seasonal,3707
+Mizoram,0,0,0.0,seasonal,3707
+MP,0,0,0.0,seasonal,3707
+Nagaland,0,0,0.0,seasonal,3707
+Odisha,0,0,0.0,seasonal,3707
+Punjab,0,0,0.0,seasonal,3707
+Rajasthan,0,0,0.0,seasonal,3707
+Sikkim,0,0,0.0,seasonal,3707
+Tamil Nadu,0,0,0.0,seasonal,3707
+Telangana,0,0,0.0,seasonal,3707
+UP,0,0,0.0,seasonal,3707
+Uttarakhand,0,0,0.0,seasonal,3707
+West Bengal,0,0,0.0,seasonal,3707
+Total Consumption,6,0,100.0,seasonal,3707

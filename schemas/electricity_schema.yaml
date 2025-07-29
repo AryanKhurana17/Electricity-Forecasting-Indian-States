@@ -1,0 +1,33 @@
+# Electricity consumption data schema configuration
+electricity_data_schema:
+  date_column: "Dates"
+  
+  required_columns:
+    - "Dates"
+  
+  exclude_states:
+    - "Pondy"
+    - "Tripura"
+  
+  
+  data_quality:
+    expected_min_records: 365  # At least 1 year of data
+    max_missing_percentage: 50  # Maximum allowed missing values per state
+    outlier_multiplier: 80  # Flag if 99th percentile > 10x 1st percentile
+    
+  date_validation:
+    min_year: 2012
+    allow_future_dates: false
+    date_formats:
+      - "%Y-%m-%d"
+      - "%d-%m-%Y"
+      - "%Y/%m/%d"
+  
+  imputation:
+    method: "seasonal"  # seasonal, forward_fill, backward_fill, mean
+    seasonal_groupby: "month"
+    
+  validation_rules:
+    negative_values_allowed: false
+    zero_values_allowed: true
+    extreme_outlier_threshold: 5.0  # Standard deviations from mean

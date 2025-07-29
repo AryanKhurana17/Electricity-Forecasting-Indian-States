@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Optional, Dict, Any
-
+from typing import List, Dict,Optional,Any
 
 @dataclass(frozen=True)
 class DataIngestionConfig:
@@ -23,7 +22,6 @@ class DataValidationConfig:
     exclude_states: tuple
     date_column: str = "Dates"
 
-
 @dataclass(frozen=True)
 class DataTransformationConfig:
     """Configuration for data transformation component"""
@@ -32,7 +30,6 @@ class DataTransformationConfig:
     transformed_data_file: Path
     outlier_quantile: float
     log_transform: bool = True
-
 
 @dataclass(frozen=True)
 class ModelTrainerConfig:

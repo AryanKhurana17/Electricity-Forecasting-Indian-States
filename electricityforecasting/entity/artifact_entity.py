@@ -26,30 +26,37 @@ class DataValidationArtifact:
     excluded_states: List[str]
     processed_states: List[str]
     data_shape: tuple
+    
+    # New fields for comprehensive validation
+    validation_errors: List[str] = None
+    drift_report: Dict[str, Any] = None
+    drift_status: bool = True
 
 
 @dataclass
 class DataTransformationArtifact:
-    """Data transformation artifacts"""
-    transformed_data_file: Path
+    transformed_data_file: str
     transformation_status: bool
-    outlier_threshold: Dict[str, float]
-    transformation_applied: List[str]
+    outlier_threshold: dict
+    transformation_applied: list
     final_shape: tuple
+    accuracy_metrics: dict = None  
+
 
 
 @dataclass
 class ModelTrainerArtifact:
-    """Model training artifacts"""
-    models_directory: Path
+    models_directory: str
     training_status: bool
-    successful_states: List[str]
-    failed_states: List[str]
-    training_summary: Dict[str, Dict[str, float]]
-    best_performing_state: Optional[str]
-    worst_performing_state: Optional[str]
+    successful_states: list
+    failed_states: list
+    training_summary: dict
+    best_performing_state: str
+    worst_performing_state: str
     average_mae: float
     average_rmse: float
+    prediction_accuracy_reports: dict = None  
+
 
 
 @dataclass

@@ -1,9 +1,7 @@
 import sys
-import os
 import certifi
 import pandas as pd
 import pymongo
-from pathlib import Path
 
 from electricityforecasting.logger.logger import logging
 from electricityforecasting.exception.exception import ElectricityForecastingException
@@ -22,7 +20,7 @@ class DataIngestion:
                 raise ValueError(f"MongoDB URL not found in configuration")
                 
         except Exception as e:
-            raise ElectricityForecastingException(f"Error initializing DataIngestion: {e}", sys) from e
+            raise ElectricityForecastingException(e, sys)
 
     def fetch_from_mongo(self) -> pd.DataFrame:
         """Fetch data from MongoDB"""
@@ -37,7 +35,7 @@ class DataIngestion:
             return df
             
         except Exception as e:
-            raise ElectricityForecastingException(f"Error fetching from MongoDB: {e}", sys) from e
+            raise ElectricityForecastingException(e, sys)
 
     def run(self) -> DataIngestionArtifact:
         """Run data ingestion pipeline"""
@@ -62,5 +60,4 @@ class DataIngestion:
             return artifact
             
         except Exception as e:
-            logging.error(f"Error in data ingestion: {e}")
-            raise ElectricityForecastingException(f"Data ingestion failed: {e}", sys) from e
+            raise ElectricityForecastingException(e,sys)

@@ -6,7 +6,7 @@ import pandas as pd
 from electricityforecasting.logger.logger import logging
 from electricityforecasting.exception.exception import ElectricityForecastingException
 
-load_dotenv()  # makes MONGO_DB_URL available everywhere
+load_dotenv()  
 
 def create_dirs(paths: List[Path]) -> None:
     try:

@@ -1,0 +1,15 @@
+{
+    "validation_summary": {
+        "overall_status": true,
+        "schema_validation": true,
+        "date_validation": true,
+        "quality_validation": true,
+        "temporal_validation": true
+    },
+    "validation_errors": [],
+    "data_shape": [
+        3707,
+        38
+    ],
+    "validation_timestamp": "2025-07-29T23:00:36.763767"
+}
