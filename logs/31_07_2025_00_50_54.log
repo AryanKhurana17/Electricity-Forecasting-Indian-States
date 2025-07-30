@@ -1,0 +1,27 @@
+[2025-07-31 00:50:54,439] 79 root - INFO - Data loaded successfully. Last available date: 2024-09-28
+[2025-07-31 00:51:37,764] 39 fastapi - WARNING - email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+[2025-07-31 01:04:30,745] 139 root - INFO - Predicting for Delhi on 2025-08-30 (336 days ahead from last data)
+[2025-07-31 01:04:35,372] 174 root - INFO - Prediction for Delhi on 2025-08-30: 97.87 MWh
+[2025-07-31 01:04:52,695] 139 root - INFO - Predicting for Delhi on 2025-12-30 (458 days ahead from last data)
+[2025-07-31 01:04:58,811] 174 root - INFO - Prediction for Delhi on 2025-12-30: 98.13 MWh
+[2025-07-31 01:05:18,695] 139 root - INFO - Predicting for Delhi on 2025-02-01 (126 days ahead from last data)
+[2025-07-31 01:05:20,408] 174 root - INFO - Prediction for Delhi on 2025-02-01: 92.04 MWh
+[2025-07-31 01:05:53,401] 139 root - INFO - Predicting for Goa on 2025-05-20 (234 days ahead from last data)
+[2025-07-31 01:05:56,617] 174 root - INFO - Prediction for Goa on 2025-05-20: 10.72 MWh
+[2025-07-31 01:10:44,542] 139 root - INFO - Predicting for HP on 2025-03-20 (173 days ahead from last data)
+[2025-07-31 01:10:46,895] 174 root - INFO - Prediction for HP on 2025-03-20: 30.99 MWh
+[2025-07-31 01:11:03,342] 139 root - INFO - Predicting for HP on 2025-06-15 (260 days ahead from last data)
+[2025-07-31 01:11:06,857] 174 root - INFO - Prediction for HP on 2025-06-15: 31.00 MWh
+[2025-07-31 01:11:14,259] 139 root - INFO - Predicting for HP on 2025-06-27 (272 days ahead from last data)
+[2025-07-31 01:11:17,945] 174 root - INFO - Prediction for HP on 2025-06-27: 31.00 MWh
+[2025-07-31 01:11:29,089] 139 root - INFO - Predicting for Maharashtra on 2025-06-10 (255 days ahead from last data)
+[2025-07-31 01:11:32,484] 174 root - INFO - Prediction for Maharashtra on 2025-06-10: 432.25 MWh
+[2025-07-31 01:11:43,987] 139 root - INFO - Predicting for Maharashtra on 2024-12-10 (73 days ahead from last data)
+[2025-07-31 01:11:44,998] 174 root - INFO - Prediction for Maharashtra on 2024-12-10: 429.33 MWh
+[2025-07-31 01:12:06,794] 139 root - INFO - Predicting for Total Consumption on 2024-12-31 (94 days ahead from last data)
+[2025-07-31 01:12:08,018] 174 root - INFO - Prediction for Total Consumption on 2024-12-31: 3700.36 MWh
+[2025-07-31 01:12:24,601] 139 root - INFO - Predicting for Total Consumption on 2025-06-15 (260 days ahead from last data)
+[2025-07-31 01:12:28,092] 174 root - INFO - Prediction for Total Consumption on 2025-06-15: 3955.71 MWh
+[2025-07-31 01:12:43,753] 139 root - INFO - Predicting for Total Consumption on 2025-01-15 (109 days ahead from last data)
+[2025-07-31 01:12:45,162] 174 root - INFO - Prediction for Total Consumption on 2025-01-15: 3750.24 MWh
